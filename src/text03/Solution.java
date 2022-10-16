@@ -13,7 +13,7 @@ public class Solution {
             if(max==i)res++;
         }
         // 0,2,1
-        return res;
+        return  res;
     }
 
     public static void main(String[] args) {

@@ -13,7 +13,7 @@ public class Solution3 {
         boolean result=false;
         int pre=0,cur=0;
         while (pre<n1&&cur<n2){
-            if(s.charAt(pre)==t.charAt(cur)){
+             if(s.charAt(pre)==t.charAt(cur)){
                 pre++;
                // cur++;
             }

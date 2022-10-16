@@ -12,7 +12,7 @@ public class Solution5 {
                 index++;
                 continue;
             }
-            int sign2 = sing, number = 0;
+            int sign2 =  sing, number = 0;
             boolean valid = false;  //记录number是否有效
             //去掉前面的符号
             if (equation.charAt(index) == '-' || equation.charAt(index) == '+') {

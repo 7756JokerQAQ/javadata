@@ -9,7 +9,7 @@ public class Solution2 {
             return String.valueOf(nums[0]) + "/" + String.valueOf(nums[1]);
         }
         int n = nums.length;
-        String s1 = String.valueOf(nums[0]);
+        String s1 =  String.valueOf(nums[0]);
         s1 += "/(";
         for (int i = 1; i < n - 1; i++) {
             String s = String.valueOf(nums[i]);

@@ -16,7 +16,7 @@ public class Solution3 {
                 exitt=true;
 
             }else if(s.charAt(i)=='-'){
-                sign*=-1;
+                 sign*=-1;
             }
             if(exitt){
                 break;

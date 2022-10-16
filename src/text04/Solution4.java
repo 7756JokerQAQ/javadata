@@ -11,7 +11,7 @@ public class Solution4 {
         for (String temp :
                 dictionary) {
             max = Math.max(max, search(temp, s));
-            //判断字母序是否最小
+             //判断字母序是否最小
             if (max > key && max == temp.length()) {
                 if (!ls.isEmpty()) {
                     ls.clear();

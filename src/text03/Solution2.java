@@ -24,7 +24,7 @@ public class Solution2 {
                 }
 
             }
-            return size;
+            return  size;
         }
     public static void main(String[] args) {
         char[]temp={'a','a','b','b','c','c','c'};

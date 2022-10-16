@@ -33,7 +33,7 @@ public class Solution4 {
             return "0/1";
         }
         //求出最大公约数
-        long g = gcd(Math.abs(x), y);
+        long g =  gcd(Math.abs(x), y);
 
         return Long.toString(x / g) + "/" + Long.toString(y / g);
 

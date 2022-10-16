@@ -16,7 +16,7 @@ public class Solution2 {
         int count=target.length;
         int k=0;
         int j=0;
-        while (k<count&&j<n){
+         while (k<count&&j<n){
             res.add(p);
             if(target[k]==list[j]){
                 k++;

@@ -27,7 +27,7 @@ public class Solution {
             set.add(nums[i]);
         }
         int count=0;
-        boolean doors=false;
+        boolean doors= false;
        //可以利用开关门
         while (head!=null){
             if(set.contains(head.val)){

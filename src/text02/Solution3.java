@@ -8,6 +8,6 @@ public class Solution3 {
         int d=Integer.parseInt(num2.substring(0,num2.indexOf('+')));
         int f=Integer.parseInt(num2.substring(num2.indexOf('+')+1,num2.length()-1));
 
-        return  String.format((a*d-b*f)+"+"+(a*f+b*d)+"i");
+        return   String.format((a*d-b*f)+"+"+(a*f+b*d)+"i");
     }
 }

@@ -12,7 +12,7 @@ public class Solution4 {
             if(getValue(s.charAt(i))>getValue(s.charAt(i+1))){
                 temp[i]=getValue(s.charAt(i));
             }else {
-                temp[i]=-1*getValue(s.charAt(i));
+                 temp[i]=-1*getValue(s.charAt(i));
             }
         }
         temp[s.length()-1]=getValue(s.charAt(s.length()-1));

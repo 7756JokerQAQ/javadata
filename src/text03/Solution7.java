@@ -15,7 +15,7 @@ public class Solution7 {
             }
             if (i < res2.length) {
                 temp2[i] = res2[i];
-            }else {
+             }else {
                 temp2[i]="0";
             }
         }

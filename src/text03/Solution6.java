@@ -13,7 +13,7 @@ public class Solution6 {
                 res+=SrIndex[i];
             }
         }
-        return res;
+         return res;
 
     }
 
