@@ -29,7 +29,7 @@ public class Solution4 {
         }
 
         //计算完成结果后
-        if (x == 0) {
+         if (x == 0) {
             return "0/1";
         }
         //求出最大公约数

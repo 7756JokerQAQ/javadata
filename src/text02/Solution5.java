@@ -10,7 +10,7 @@ public class Solution5 {
             if (equation.charAt(index) == '=') { //等式的右边为负数
                 sing = -1;
                 index++;
-                continue;
+                 continue;
             }
             int sign2 =  sing, number = 0;
             boolean valid = false;  //记录number是否有效

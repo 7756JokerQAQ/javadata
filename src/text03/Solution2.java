@@ -19,7 +19,7 @@ public class Solution2 {
                                 String.valueOf(right - left).toCharArray()) {
                             chars[size++] = c;
                         }
-                    }
+                     }
                     left=right;
                 }
 

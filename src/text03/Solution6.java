@@ -9,7 +9,7 @@ public class Solution6 {
         String res="";
         for (int i = 0; i < 13; i++) {
             while (num>=IntNum[i]){
-                num-=IntNum[i];
+                 num-=IntNum[i];
                 res+=SrIndex[i];
             }
         }

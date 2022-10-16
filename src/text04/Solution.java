@@ -23,7 +23,7 @@ class Solution {
                 // 统计 1 的个数
                 if (value == 1) {
                     count++;
-                }
+                 }
             }
              // 更换生成的字符，3-1=2，3-2=1，实现 1 和 2 的交替
             value = 3 - value;

@@ -12,7 +12,7 @@ public class Solution3 {
                     continue;
                 }
                 isZero=false;
-                result+=s.charAt(i);
+                 result+=s.charAt(i);
                 exitt=true;
 
             }else if(s.charAt(i)=='-'){

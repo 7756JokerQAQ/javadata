@@ -11,7 +11,7 @@ public class Solution2 {
         int n = nums.length;
         String s1 =  String.valueOf(nums[0]);
         s1 += "/(";
-        for (int i = 1; i < n - 1; i++) {
+         for (int i = 1; i < n - 1; i++) {
             String s = String.valueOf(nums[i]);
             s1 += s + "/";
         }

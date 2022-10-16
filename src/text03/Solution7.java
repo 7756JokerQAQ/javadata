@@ -10,7 +10,7 @@ public class Solution7 {
         for (int i = 0; i < n; i++) {
             if (i < res1.length) {
                 temp1[i] = res1[i];
-            }else {
+             }else {
                 temp1[i]="0";
             }
             if (i < res2.length) {
